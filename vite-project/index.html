@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+  <title>My mobile phone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="main.js"></script>
+<button onclick="applyCustomStyles()">Inverse</button>
+<button onclick="applyCustomStyles2()">Reset</button>
+<div class="phone">
+  <div class="bar" id="bar">
+  <div class="clock" id="clock"></div>
+  </div>
+  <div class="main" id="main">
+  <div class="app-icon" onclick="openApp('app1')">
+    <img src="app1-icon.png" alt="App 1" width="60" height="60">
+  </div>
+  <div class="app-icon" onclick="openApp('app2')">
+    <img src="app2-icon.png" alt="App 2" width="60" height="60">
+  </div>
+  <div class="app-icon" onclick="openApp('app3')">
+    <img src="app3-icon.png" alt="App 3" width="60" height="60">
+  </div>
+  <div class="app-icon" onclick="openApp('app4')">
+    <img src="app4-icon.png" alt="App 4" width="60" height="60">
+  </div>
+  <div class="app-icon" onclick="openApp('app5')">
+    <img src="app5-icon.png" alt="App 5" width="60" height="60">
+  </div>
+    </div>
+  <div class="dock">
+    <div class="dock-icon" onclick="openApp('phone')">
+      <img src="phone-icon.png" alt="Phone" width="50" height="50">
+    </div>
+    <div class="dock-icon" onclick="openApp('contacts')">
+      <img src="contacts-icon.png" alt="Contacts" width="50" height="50">
+    </div>
+  </div>
+</div>
+</body>
+</html>
